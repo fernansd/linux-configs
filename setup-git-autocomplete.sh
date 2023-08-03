@@ -8,7 +8,7 @@ function check_error() {
 }
 
 grep -E "^ID=ubuntu$" /etc/os-release
-check_error "Error. Solc funciona para Ubuntu"
+check_error "Error. Sólo funciona para Ubuntu"
 
 sudo apt install -y bash-completion
 check_error "Error. No se ha podido instalar el paquete 'bash-completion'"
